@@ -4,7 +4,9 @@ import numpy as np
 import google.generativeai as genai
 
 from sentence_transformers import SentenceTransformer
-from src.config import GEMINI_API_KEY
+import os
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 from src.image_classifier import predict_skin_disease
 
 genai.configure(api_key=GEMINI_API_KEY)
