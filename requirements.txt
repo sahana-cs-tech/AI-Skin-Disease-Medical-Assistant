@@ -1,0 +1,12 @@
+streamlit
+google-generativeai
+sentence-transformers
+faiss-cpu
+numpy
+torch
+torchvision
+timm
+transformers
+Pillow
+huggingface-hub
+protobuf
