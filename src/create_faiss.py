@@ -1,0 +1,44 @@
+import json
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
+
+print("Loading model...")
+
+model = SentenceTransformer("all-MiniLM-L6-v2")
+
+print("Loading chunks...")
+
+with open(
+    "chunks.json",
+    "r",
+    encoding="utf-8"
+) as f:
+    chunks = json.load(f)
+
+texts = [chunk["text"] for chunk in chunks]
+
+print("Generating embeddings...")
+
+embeddings = model.encode(texts)
+
+embeddings = np.array(
+    embeddings,
+    dtype="float32"
+)
+
+dimension = embeddings.shape[1]
+
+print("Creating FAISS index...")
+
+index = faiss.IndexFlatL2(dimension)
+
+index.add(embeddings)
+
+faiss.write_index(
+    index,
+    "vector_db/skin_disease.index"
+)
+
+print("Total vectors stored:", index.ntotal)
+print("FAISS index saved.")
