@@ -34,7 +34,7 @@ https://github.com/sahana-cs-tech/AI-Skin-Disease-Medical-Assistant
 
 #  Application Preview
 
-> **Add your screenshots inside a `screenshots` folder and uncomment these lines.**
+
 
 ### Home Page
 
