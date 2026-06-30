@@ -4,35 +4,35 @@ An AI-powered medical assistant that combines **Vision Transformers**, **Retriev
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 🔗 **Try the application here:**  
 https://ai-skin-disease-medical-assistant-urfayyu9ezdksdhq4sgvkk.streamlit.app/
 
 ---
 
-## 📌 GitHub Repository
+##  GitHub Repository
 
 https://github.com/sahana-cs-tech/AI-Skin-Disease-Medical-Assistant
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🖼️ Skin disease prediction from uploaded images
-- 📷 Capture images directly using your device camera
-- 💬 Ask questions about symptoms, causes, treatments, and prevention
-- 🧠 Retrieval-Augmented Generation (RAG) powered chatbot
-- 📚 Answers generated from medical textbook knowledge
-- 🔍 FAISS vector similarity search for relevant information retrieval
-- 🤖 Google Gemini AI for natural language responses
-- 📊 Confidence score for predicted disease
-- 📄 Displays medical reference sources
-- ⚠️ Educational medical disclaimer
+-  Skin disease prediction from uploaded images
+-  Capture images directly using your device camera
+-  Ask questions about symptoms, causes, treatments, and prevention
+-  Retrieval-Augmented Generation (RAG) powered chatbot
+-  Answers generated from medical textbook knowledge
+-  FAISS vector similarity search for relevant information retrieval
+-  Google Gemini AI for natural language responses
+-  Confidence score for predicted disease
+-  Displays medical reference sources
+-  Educational medical disclaimer
 
 ---
 
-# 📸 Application Preview
+#  Application Preview
 
 > **Add your screenshots inside a `screenshots` folder and uncomment these lines.**
 
@@ -54,7 +54,7 @@ https://github.com/sahana-cs-tech/AI-Skin-Disease-Medical-Assistant
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```text
                 User
@@ -91,7 +91,7 @@ https://github.com/sahana-cs-tech/AI-Skin-Disease-Medical-Assistant
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 | Category | Technologies |
 |----------|--------------|
@@ -107,7 +107,7 @@ https://github.com/sahana-cs-tech/AI-Skin-Disease-Medical-Assistant
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 AI-Skin-Disease-Medical-Assistant
@@ -140,7 +140,7 @@ AI-Skin-Disease-Medical-Assistant
 
 ---
 
-# 🚀 Installation
+#  Installation
 
 Clone the repository
 
@@ -170,7 +170,7 @@ streamlit run app.py
 
 ---
 
-# 💡 How It Works
+#  How It Works
 
 1. Upload a skin image or capture one using the camera.
 2. Enter symptoms or ask a medical question.
@@ -182,7 +182,7 @@ streamlit run app.py
 
 ---
 
-# 📈 Future Enhancements
+#  Future Enhancements
 
 - User authentication
 - Patient history management
@@ -195,19 +195,19 @@ streamlit run app.py
 
 ---
 
-# ⚠️ Disclaimer
+#  Disclaimer
 
 This application is intended for **educational and informational purposes only**. It is **not a substitute for professional medical advice, diagnosis, or treatment**. Always consult a qualified healthcare professional for medical concerns.
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Sahana C S**
 
 GitHub: https://github.com/sahana-cs-tech
 
-LinkedIn: *(Add your LinkedIn profile URL here.)*
+LinkedIn: *https://www.linkedin.com/in/sahana-c-s-35482531a*
 
 ---
 
